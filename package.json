@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project_JuiceDev2023/",
+    "build": "vite build --base=/project-JuiceDev2023/",
     "preview": "vite preview"
   },
   "devDependencies": {
