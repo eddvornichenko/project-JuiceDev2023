@@ -5,8 +5,7 @@
   background-color: var(--white-color);
   padding: 13px 20px;
 }
-.logo-header {
-}
+
 .logo-text-header {
   text-transform: uppercase;
   font-size: 14px;
@@ -25,7 +24,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .icon-uil_cart {
     display: none;
   }
