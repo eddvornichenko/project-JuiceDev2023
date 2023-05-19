@@ -1,0 +1,54 @@
+/* btn-style */
+.fruits-order-btn {
+background: #9DC262;
+border-radius:100%;
+width: 114px;
+height: 114px;
+border: none;
+overflow: auto;
+transform: rotate(-14deg);
+/* text */
+font-family: 'DM Sans';
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+flex: none;
+}
+.fruits-order-img {
+    fill: #ffffff;
+}
+.fruits-order-btn:hover 
+.fruits-order-img {
+    fill: #9DC262;
+}
+.fruits-order-btn:hover {
+    background: #FFFFFF;
+    border-radius:100%;
+    width: 114px;
+    height: 114px;
+    border: none;
+    overflow: auto;
+    transform: rotate(-14deg);
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #9DC262;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .fruits-btn-container {
+        display: flex;
+        justify-content: center;
+    }
+/* end-btn-style */
