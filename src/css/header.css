@@ -1,1 +1,35 @@
-
+.link {
+  text-decoration: none;
+}
+.header {
+  background-color: var(--white-color);
+  padding: 13px 20px;
+}
+.logo-header {
+}
+.logo-text-header {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: var(--red-color);
+}
+.icon-mobile-menu {
+  background-color: var(--white-color);
+  border: 0;
+  padding: 0;
+  line-height: 0;
+}
+@media screen and (min-width: 767px) {
+  .icon-mobile-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .icon-uil_cart {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+}
