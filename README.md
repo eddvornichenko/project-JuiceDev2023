@@ -27,7 +27,7 @@
 опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
 для автоматизації процесу деплою проекту.
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)git
 
 Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
 репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
