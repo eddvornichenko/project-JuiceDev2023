@@ -1,0 +1,99 @@
+.fruits-section {
+}
+.fruits-container {
+}
+.fruits-title-wrapper {
+/* стиль добавлен Остапом */
+}
+
+.fruits-title {
+  /* стиль добавлен Остапом */
+}
+.fruits-text {
+  /* стиль добавлен Остапом */
+}
+
+.fruits-list {
+  --items: 1;
+  --indent: 14px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--indent);
+  margin-bottom: 44px;
+}
+
+.fruits-item {
+  max-width: 335px;
+  flex-basis: calc((100% - ((var(--items) -1) * var(--indent))) / var(--items));
+  
+  padding-top: 64px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+
+  background-color: #f8766b;
+  border-radius: 20px;
+}
+
+.fruits-item-title {
+  margin-bottom: 8px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.19;
+  /* identical to box height, or 119% */
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+}
+
+.fruits-item-text {
+  margin-bottom: 4px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  /* identical to box height, or 133% */
+  letter-spacing: -0.02em;
+}
+
+.fruits-item-image {
+  margin-bottom: 26px;
+}
+
+/* Shadow of the fruit image */
+.fruits-item-image-shadow {
+}
+
+.fruits-item-price {
+  display: block;
+  width: 126px;
+  padding: 12px 24px;
+  background: #ffffff;
+  border-radius: 200px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  /* identical to box height, or 129% */
+  letter-spacing: -0.04em;
+
+  color: #ae1332;
+}
+
+/* btn-style */
+.fruits-order-btn {
+  /* стиль добавлен Остапом */
+}
+.fruits-order-img {
+  /* стиль добавлен Остапом */
+}
