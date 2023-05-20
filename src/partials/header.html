@@ -1,51 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fresh Harvest Box</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="../css/header.css" />
-</head>
 <header class="header">
-    <div class="container">
+    <div class="header-container container">
         <nav class="navigation">
-            <ul class="menu list">
-                <li class="menu-item">
-                    <a class="" href="">How It Works</a>
+            <ul class="menu">
+                <li class="">
+                    <a class="menu-item" href="./howitwork.html">How It Works</a>
                 </li>
-                <li class="menu-item">
-                    <a class="" href="">Fruits</a>
+                <li class="">
+                    <a class="menu-item" href="./fruits.html">Fruits</a>
                 </li>
-                <li class="menu-item">
-                    <a class="" href="">Contacts</a>
+                <li class="">
+                    <a class="menu-item" href="./contacts.html">Contacts</a>
                 </li>
             </ul>
         </nav>
-        <a class="logo-header link" href="" aria-label="fresh harvest box logo">
+        <a class="logo-header" href="" aria-label="fresh harvest box logo">
             <svg class="" width="16" height="16">
-                <use href="../img/heder.icon.svg#icon-logo"></use>
+                <use href="../img/icon.svg#icon-logo"></use>
             </svg>
             <span class="logo-text-header">fresh harvest box</span>
         </a>
-        <button class="icon-mobile-menu" aria-expanded="false" aria-controls="mobile-menu"> <svg class="" width="24"
-                height="24">
-                <use href="../img/heder.icon.svg#icon-mobile-menu"></use>
-            </svg></button>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"> <svg class=""
+                width="24" height="24">
+                <use href="../img/icon.svg#icon-mobile-menu"></use>
+            </svg>
+        </button>
+
+
+
+        <!--        
+
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <div class="header-container container"> <a class="logo-header" href="" aria-label="fresh harvest box logo">
+                    <svg class="" width="16" height="16">
+                        <use href="../img/icon.svg#icon-logo"></use>
+                    </svg>
+                    <span class="logo-text-header">fresh harvest box</span>
+                </a>
+                <button class="menu-toggle js-close-menu">
+                    <svg class="close-menu" width="24" height="24">
+                        <use href="../img/icon.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="mobile-menu-container container">
+                <ul class="mobile-menu">
+                    <li class="">
+                        <a class="" href="">How It Works</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="">Fruits</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg class="" width="28" height="28">
+                                <use href="../img/icon.svg#icon-uil_cart_menu"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
+        <script defer src="js/mobile-menu.js"></script>
+
         <button class="icon-uil_cart" aria-expanded="false" aria-controls="mobile-menu"> <svg class="" width="24"
                 height="24">
-                <use href="../img/heder.icon.svg#icon-uil_cart_heder"></use>
-            </svg></button>
-    </div>
+                <use href="../img/icon.svg#icon-uil_cart_heder"></use>
+            </svg>
+        </button>
+    </div> -->
 
 </header>
-
-
-
-</html>
