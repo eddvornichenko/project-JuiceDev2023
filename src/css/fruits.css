@@ -35,6 +35,10 @@ justify-content: center;
 }
 /* Title-fruit-end */
 
+/* Fruits-card-itam-style */
+
+/* Fruits-card-itam-style-end */
+
 /* btn-style */
 .fruits-order-btn {
 background: #9DC262;
@@ -53,6 +57,7 @@ letter-spacing: -0.04em;
 color: #FFFFFF;
 text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 flex: none;
+transition: background-color 500ms linear;
 }
 .fruits-order-img {
     fill: #ffffff;
