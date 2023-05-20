@@ -26,7 +26,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
-.container-title-fruits {
+.fruits-title-wrapper {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
