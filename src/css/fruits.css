@@ -1,3 +1,30 @@
+/* Title-fruit */
+.fruits-title {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 44px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+display: flex;
+justify-content: center;
+}
+.fruits-text {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+display: flex;
+justify-content: center;
+}
+/* Title-fruit-end */
 /* btn-style */
 .fruits-order-btn {
 background: #9DC262;
@@ -7,7 +34,7 @@ height: 114px;
 border: none;
 overflow: auto;
 transform: rotate(-14deg);
-/* text */
+/* TEXT-btn  */
 font-family: 'DM Sans';
 font-weight: 500;
 font-size: 18px;
