@@ -119,7 +119,33 @@
 
   color: #ae1332;
 }
-
+.fruits-item:nth-child(1) {
+  background: #F8766B;
+}
+.fruits-item:nth-child(2) {
+  background: #EDD251;
+}
+.fruits-item:nth-child(3) {
+  background: #9dc262;
+}
+.fruits-item:nth-child(4) {
+  background: #BFD663;
+}
+.fruits-item:nth-child(5) {
+  background: #E93F29;
+}
+.fruits-item:nth-child(6) {
+  background: #DB4F4B;
+}
+.fruits-item:nth-child(7) {
+  background: #9B5366;
+}
+.fruits-item:nth-child(8) {
+  background: #F47F4C;
+}
+.fruits-item:nth-child(9) {
+  background: #98B37E;
+}
 /* btn-style */
 /* btn-style */
 .fruits-order-btn {
