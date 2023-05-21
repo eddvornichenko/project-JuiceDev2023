@@ -1,11 +1,16 @@
+<!--Work button ( delite)  -->
 <button data-modal-open>Orler-modal</button>
+<button thank-modal-open>THANK</button>
+<!--Work button ( delite)  -->
+
+<!-- Modal window ORDER -->
 <div class="backdrop is-hidden" data-modal>
   <div class="modal-order">
     <div class="modal-top">
       <h2 class="modal-order-title">Your Order</h2>
-      <button class="modal-btn-close">
+      <button class="modal-btn-close" data-modal-close>
         <svg class="btn-close-icon" width="28" height="28">
-          <use href="../img/javascript.svg#icon-close"></use>
+          <use href="./img/modal-img/icon-m.svg#icon-x"></use>
         </svg>
       </button>
     </div>
@@ -22,10 +27,10 @@
         <img
           class="thumb-pinck"
           srcset="
-            ../img/modal-img/strawberry-basket-w173@1x.png 1x,
-            ../img/modal-img/strawberry-basket-w173@2x.png 2x
+            ./img/modal-img/strawberry-basket-w173@1x.png 1x,
+            ./img/modal-img/strawberry-basket-w173@2x.png 2x
           "
-          src="../img/modal-img/strawberry-basket-w173@1x.png"
+          src="./img/modal-img/strawberry-basket-w173@1x.png"
           alt="strawberry-basket"
           width="173"
           height="196"
@@ -43,10 +48,10 @@
         <img
           class="thumb-yellow"
           srcset="
-            ../img/modal-img/apple-basket-w229@1x.png 1x,
-            ../img/modal-img/apple-basket-w229@2x.png 2x
+            ./img/modal-img/apple-basket-w229@1x.png 1x,
+            ./img/modal-img/apple-basket-w229@2x.png 2x
           "
-          src="../img/modal-img/apple-basket-w229@1x.png"
+          src="./img/modal-img/apple-basket-w229@1x.png"
           alt="apple-basket"
           width="229"
           height="196"
@@ -64,10 +69,10 @@
         <img
           class="thumb-green"
           srcset="
-            ../img/modal-img/fruit-basket-w229@1x.png 1x,
-            ../img/modal-img/fruit-basket-w229@2x.png 2x
+            ./img/modal-img/fruit-basket-w229@1x.png 1x,
+            ./img/modal-img/fruit-basket-w229@2x.png 2x
           "
-          src="../img/modal-img/fruit-basket-w229@1x.png"
+          src="./img/modal-img/fruit-basket-w229@1x.png"
           alt="fruit-basket"
           width="229"
           height="196"
@@ -94,7 +99,7 @@
         type="email"
         name="user-email"
         required
-        pattern="^[@]+$"
+        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
         title="Email must contain the symbol @"
         placeholder="Enter email..."
       />
@@ -119,7 +124,38 @@
         placeholder="Enter comments..."
       ></textarea>
     </form>
-    <button class="modal-btn-sub" data-modal-close>Sabmit</button>
+    <button class="modal-btn-sub" type="submit">Submit</button>
   </div>
 </div>
+<!-- Modal window THENK YOU -->
+<div class="fond is-hidden" thank-modal>
+  <div class="modal-thank">
+    <button class="thank-btn-close" thank-modal-close>
+      <svg class="btn-close-icon" width="28" height="28">
+        <use href="./img/modal-img/icon-m.svg#icon-x"></use>
+      </svg>
+    </button>
+    <img
+      class="thank-pic"
+      srcset="
+        ./img/modal-img/berries-w278@1x.png 1x,
+        ./img/modal-img/berries-w278@2x.png 2x
+      "
+      src="./img/modal-img/berries-w278@1x.png"
+      alt="Berries"
+      width="278"
+      height="239"
+    />
+    <div class="thank-descr">
+      <h2 class="thank-title">THANK YOU</h2>
+      <p class="thank-text">
+        Thank you for your order! Our team is preparing your box with fresh,
+        delicious fruits and vegetables, and we'll deliver it straight to your
+        doorstep. We appreciate your business and look forward to providing you
+        with the best possible experience!
+      </p>
+    </div>
+  </div>
+</div>
+
 <script src="../js/modal.js"></script>
