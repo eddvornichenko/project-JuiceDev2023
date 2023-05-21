@@ -166,9 +166,7 @@
 .fruits-btn-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 150px;
+  margin-top: 44px;
 }
 /* end-btn-style */
-.fruits-btn-container {
-  display: flex;
-  justify-content: center;
-}
