@@ -3,14 +3,39 @@
 .fruits-container {
 }
 .fruits-title-wrapper {
-/* стиль добавлен Остапом */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 624px;
+  max-height: 112px;
 }
 
 .fruits-title {
-  /* стиль добавлен Остапом */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
 }
+
 .fruits-text {
-  /* стиль добавлен Остапом */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 44px;
 }
 
 .fruits-list {
@@ -28,7 +53,7 @@
 .fruits-item {
   max-width: 335px;
   flex-basis: calc((100% - ((var(--items) -1) * var(--indent))) / var(--items));
-  
+
   padding-top: 64px;
   padding-right: 24px;
   padding-bottom: 24px;
@@ -91,9 +116,59 @@
 }
 
 /* btn-style */
+/* btn-style */
 .fruits-order-btn {
-  /* стиль добавлен Остапом */
+  background: #9dc262;
+  border-radius: 100%;
+  width: 114px;
+  height: 114px;
+  border: none;
+  overflow: auto;
+  transform: rotate(-14deg);
+  /* TEXT-btn  */
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  flex: none;
+  transition: background-color 500ms linear;
 }
 .fruits-order-img {
-  /* стиль добавлен Остапом */
+  fill: #ffffff;
+}
+.fruits-order-btn:hover .fruits-order-img {
+  fill: #9dc262;
+}
+.fruits-order-btn:hover {
+  background: #ffffff;
+  border-radius: 100%;
+  width: 114px;
+  height: 114px;
+  border: none;
+  overflow: auto;
+  transform: rotate(-14deg);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #9dc262;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.fruits-btn-container {
+  display: flex;
+  justify-content: center;
+}
+/* end-btn-style */
+.fruits-btn-container {
+  display: flex;
+  justify-content: center;
 }
