@@ -95,6 +95,11 @@
 
 /* Shadow of the fruit image */
 .fruits-item-image-shadow {
+  width: 195px;
+  height: 38px; 
+  background: #000000;
+  opacity: 0.1;
+  filter: blur(13.5914px);
 }
 
 .fruits-item-price {
