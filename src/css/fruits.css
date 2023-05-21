@@ -208,3 +208,25 @@
   margin-top: 44px;
 }
 /* end-btn-style */
+
+/* MEDIA  */
+
+/* phone */
+@media only screen and (max-width: 375px) {
+  .fruits-item:nth-child(7) {
+      display: none;
+  }
+  .fruits-item:nth-child(8) {
+    display: none;
+}
+.fruits-item:nth-child(9) {
+  display: none;
+}
+}
+/* tablet */
+@media only screen and (max-width: 768px) {
+  .fruits-item:nth-child(9) {
+      display: none;
+}
+}
+/* MEDIA-END  */
