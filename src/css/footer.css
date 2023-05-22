@@ -1,0 +1,153 @@
+/* delete point in UL */
+.list {
+    list-style: none;
+}
+
+ body {
+     font-family: sans-serif;
+     line-height: 1.5;
+ }
+
+ .logotype-icon {
+     display: flex;
+     justify-content: center;
+
+     text-decoration: none;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 156px;
+     height: 18px;
+     /* margin: auto; */
+
+     /* flex: none;
+  order: 1;
+  flex-grow: 0; */
+ }
+
+ .logo-icon {
+     margin-left: 8px;
+     width: 16px;
+     height: 16px;
+
+     /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+ }
+
+.logo-text {
+
+    width: 132px;
+    height: 18px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    /* identical to box height, or 129% */
+
+
+    /* align-items: center;
+  text-align: center; */
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+
+    color: #AE1332;
+    /* Inside auto layout */
+
+    /* flex: none;
+  order: 1;
+  flex-grow: 0; */
+}
+
+.nav {
+    /* display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px; */
+
+    /* position: absolute;
+  width: 208px;
+  height: 18px;
+  left: 84px;
+  top: 314px; */
+}
+
+.nav-l {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+
+    letter-spacing: -0.04em;
+
+    color: #AE1332;
+}
+
+.mobile-socials {}
+
+.kind-social-icon {}
+
+.social-link-icon {}
+
+.social-icon {}
+
+.contacts section {}
+
+.all-contacts {}
+
+.contacts-list {}
+
+.contacts-item {}
+
+.contacts-phone {
+    /* position: absolute; */
+    width: 143px;
+    height: 18px;
+    left: 116px;
+    top: 460px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #AE1332;
+}
+
+.contacts-address {
+    /* position: absolute; */
+    width: 140px;
+    height: 54px;
+    left: calc(50% - 140px/2 + 0.5px);
+    top: 492px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #AE1332;
+}
+
+.contacts-icon {}
