@@ -83,42 +83,41 @@
       <label class="visually-hidden" for="full-name">Enter full name </label>
       <input
         id="full-name"
-        class="input-user text-ph"
+        class="input-user"
         type="text"
         name="full-name"
-        required
         pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
-        title="Username must be two words separated by space."
+        title="Username must be two words separated by space, e.g. John Smith"
         autofocus
         placeholder="Enter full name..."
+        required
       />
       <label class="visually-hidden" for="email">Enter email </label>
       <input
         id="email"
-        class="input-user text-ph"
+        class="input-user"
         type="email"
         name="user-email"
-        required
-        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-        title="Email must contain the symbol @"
+        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        title="Please enter a valid user-email, e.g. dog.hot70@gmail.com"
         placeholder="Enter email..."
-      />
-      <label class="visually-hidden" for="card">Enter card </label>
-      <input
-        id="card"
-        class="input-user text-ph"
-        type="text"
-        name="user-card"
-        minlength="16"
         required
-        pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
-        title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
-        placeholder="Enter card.."
+      />
+      <label class="visually-hidden" for="tel">Enter number phone</label>
+      <input
+        id="tel"
+        class="input-user"
+        type="tel"
+        name="tel"
+        pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+        title="Please enter +38 (000) 000-00-00 and your phone number"
+        placeholder="Enter number phone.."
+        required
       />
       <label class="visually-hidden" for="massage">Enter comments</label>
       <textarea
         id="massage"
-        class="input-msg text-msg"
+        class="input-msg"
         cols="30"
         rows="10"
         placeholder="Enter comments..."
