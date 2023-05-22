@@ -1,3 +1,4 @@
-document.querySelector('.menu-btn').addEventListener('click', function(e) {
-  e.target.closest('.menu-btn').classList.toggle('menu-btn--toggle');
+document.querySelector('.menu-toggle').addEventListener('click', function(e) {
+  e.target.closest('.menu-toggle').classList.toggle('menu-btn--toggle');
 })
+
