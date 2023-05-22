@@ -10,18 +10,9 @@
   letter-spacing: -3.5px;
   color: var(--white-color);
   max-width: 624px;
-  margin-left: 295.5px;
-  margin-right: 295.5px;
+  margin: 0 auto;
   padding-bottom: 14px;
   text-align: center;
-  display: inline-block;
-}
-
-@media only screen and (max-width: 1279px) {
-  .title-order {
-    margin-left: 72px;
-    margin-right: 72px;
-  }
 }
 
 .text-order {
@@ -34,20 +25,12 @@
   max-width: 509px;
   padding-bottom: 44px;
   text-align: center;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
   .text-order {
     max-width: 335px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .text-order {
-    margin-left: 129.5px;
-    margin-right: 129.5px;
   }
 }
 
