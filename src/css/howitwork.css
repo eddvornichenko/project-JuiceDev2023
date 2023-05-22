@@ -1,52 +1,3 @@
-/* :root {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-      
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
-
-
 
 .list {
     list-style: none;
@@ -64,8 +15,8 @@ img {
     max-width: 335px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 32px;
-    padding-right: 32px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
     background-color: #AE1332;
 }
 
@@ -93,12 +44,27 @@ img {
 }
 
 
+
 .how-it-works-section {
     
     padding-top: 150px;
     padding-bottom: 150px;
    
 } 
+
+@media only screen and (max-width: 767px) {
+    .how-it-works-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .how-it-works-section {
+        padding-top: 137px;
+        padding-bottom: 144px;
+    }
+}
 
 
 .title-order {
@@ -117,7 +83,18 @@ img {
 }
 
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .title-order {
+        margin-left: 20px;
+        margin-right: 20px;
+
+        max-width: 335px;
+        font-size: 28px;
+        line-height: 1;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
     .title-order {
         margin-left: 72px;
         margin-right: 72px;
@@ -139,7 +116,7 @@ img {
     text-align: center;
 }
 
-@media only screen and (main-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
     .text-order {
         max-width: 335px;
         margin-left: 20px;
@@ -164,6 +141,13 @@ img {
     gap: 24px;
 } 
 
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .order-steps-list {
+        padding-bottom: 44px;
+        gap: 20px;
+    }
+}
+
 
 @media only screen and (max-width: 1279px) {
     .order-steps-list {
@@ -184,6 +168,13 @@ img {
     border-radius: 20px;
 } 
 
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .order-steps-item {
+        max-width: 335px;
+        min-height: 112px;
+    }
+}
+
 .number-step {
     border-radius: 200px;
     margin-left: 20px; 
@@ -198,6 +189,12 @@ img {
     display: flex;
     display: inline-block;
     align-items: center;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .text-step {
+        font-size: 14px;
+    }
 }
 
 
@@ -252,6 +249,13 @@ img {
 
 .img-gif {
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .img-gif {
+       max-width: 335px;
+        
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
