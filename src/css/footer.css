@@ -109,6 +109,11 @@
 .map-link {
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  .map-link {
+    text-align: start;
+  }
+}
 @media only screen and (min-width: 1280px) {
   .first-column {
     display: flex;
