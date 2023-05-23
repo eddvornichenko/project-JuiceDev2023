@@ -27,7 +27,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/project-JuiceDev2023/assets/index-501c8f97.js"></script>
+    <script type="module" crossorigin src="/project-JuiceDev2023/assets/index-48a442d2.js"></script>
     <link rel="stylesheet" href="/project-JuiceDev2023/assets/index-30867277.css">
   </head>
   <body>
@@ -418,7 +418,7 @@
       </li>
     </ul>
     <div class="fruits-btn-container">
-      <button class="fruits-order-btn" type="button" data-modal-open>
+      <button class="fruits-order-btn" type="button" id="myBtn">
         <svg class="fruits-order-img" width="14" height="14">
           <use href="/project-JuiceDev2023/assets/fruits-0232daff.svg#icon-Vector"></use>
         </svg>
@@ -616,11 +616,11 @@
 <!--Work button ( delite)  -->
 
 <!-- Modal window ORDER -->
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" id="myModal">
   <div class="modal-order">
     <div class="modal-top">
       <h2 class="modal-order-title">Your Order</h2>
-      <button class="modal-btn-close" data-modal-close>
+      <button class="modal-btn-close close" >
         <svg class="btn-close-icon" width="28" height="28">
           <use href="/project-JuiceDev2023/assets/icon-m-c23b3349.svg#icon-x"></use>
         </svg>
