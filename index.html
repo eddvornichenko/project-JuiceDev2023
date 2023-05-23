@@ -28,7 +28,7 @@
     />
     
     <script type="module" crossorigin src="/project-JuiceDev2023/assets/index-7ae64c72.js"></script>
-    <link rel="stylesheet" href="/project-JuiceDev2023/assets/index-d0163041.css">
+    <link rel="stylesheet" href="/project-JuiceDev2023/assets/index-1d73cdb6.css">
   </head>
   <body>
     <header class="header">
@@ -527,7 +527,156 @@
   </address>
 </footer>
 
-    
+    <!--Work button ( delite)  -->
+<button data-modal-open>Orler-modal</button>
+<button thank-modal-open>THANK</button>
+<!--Work button ( delite)  -->
+
+<!-- Modal window ORDER -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal-order">
+    <div class="modal-top">
+      <h2 class="modal-order-title">Your Order</h2>
+      <button class="modal-btn-close" data-modal-close>
+        <svg class="btn-close-icon" width="28" height="28">
+          <use href="/project-JuiceDev2023/assets/icon-m-c23b3349.svg#icon-x"></use>
+        </svg>
+      </button>
+    </div>
+    <form class="modal-card">
+      <div class="modal-plant pinck">
+        <div class="plant">
+          <h3 class="plant-title">Strawberry Basket</h3>
+          <p class="plant-text">Plant</p>
+        </div>
+        <label class="box">
+          <input class="input-check visually-hidden" type="checkbox" />
+          <span class="check-off"></span>
+        </label>
+        <img
+          class="thumb-pinck"
+          srcset="/project-JuiceDev2023/assets/strawberry-basket-w173@1x-962c5c7c.png 1x, /project-JuiceDev2023/assets/strawberry-basket-w173@2x-6f40047d.png 2x"
+          src="/project-JuiceDev2023/assets/strawberry-basket-w173@1x-962c5c7c.png"
+          alt="strawberry-basket"
+          width="173"
+          height="196"
+        />
+      </div>
+      <div class="modal-plant yellow">
+        <div class="plant">
+          <h3 class="plant-title">Apple Basket</h3>
+          <p class="plant-text">Plant</p>
+        </div>
+        <label class="box">
+          <input class="input-check visually-hidden" type="checkbox" />
+          <span class="check-off"></span>
+        </label>
+        <img
+          class="thumb-yellow"
+          srcset="/project-JuiceDev2023/assets/apple-basket-w229@1x-69cbd681.png 1x, /project-JuiceDev2023/assets/apple-basket-w229@2x-995d3c97.png 2x"
+          src="/project-JuiceDev2023/assets/apple-basket-w229@1x-69cbd681.png"
+          alt="apple-basket"
+          width="229"
+          height="196"
+        />
+      </div>
+      <div class="modal-plant green">
+        <div class="plant">
+          <h3 class="plant-title">Fruits Basket</h3>
+          <p class="plant-text">Plant</p>
+        </div>
+        <label class="box">
+          <input class="input-check visually-hidden" type="checkbox" />
+          <span class="check-off"></span>
+        </label>
+        <img
+          class="thumb-green"
+          srcset="/project-JuiceDev2023/assets/fruit-basket-w229@1x-505476ae.png 1x, /project-JuiceDev2023/assets/fruit-basket-w229@2x-4e73102e.png 2x"
+          src="/project-JuiceDev2023/assets/fruit-basket-w229@1x-505476ae.png"
+          alt="fruit-basket"
+          width="229"
+          height="196"
+        />
+      </div>
+    </form>
+    <form class="modal-use">
+      <label class="visually-hidden" for="full-name">Enter full name </label>
+      <input
+        id="full-name"
+        class="input-user text-ph"
+        type="text"
+        name="full-name"
+        required
+        pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+        title="Username must be two words separated by space."
+        autofocus
+        placeholder="Enter full name..."
+      />
+      <label class="visually-hidden" for="email">Enter email </label>
+      <input
+        id="email"
+        class="input-user text-ph"
+        type="email"
+        name="user-email"
+        required
+        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+        title="Email must contain the symbol @"
+        placeholder="Enter email..."
+      />
+      <label class="visually-hidden" for="card">Enter card </label>
+      <input
+        id="card"
+        class="input-user text-ph"
+        type="text"
+        name="user-card"
+        minlength="16"
+        required
+        pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+        title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+        placeholder="Enter card.."
+      />
+      <label class="visually-hidden" for="massage">Enter comments</label>
+      <textarea
+        id="massage"
+        class="input-msg text-msg"
+        cols="30"
+        rows="10"
+        placeholder="Enter comments..."
+      ></textarea>
+    </form>
+    <button class="modal-btn-sub" type="submit">Submit</button>
+  </div>
+</div>
+<!-- Modal window THENK YOU -->
+<div class="fond is-hidden" thank-modal>
+  <div class="modal-thank">
+    <button class="thank-btn-close" thank-modal-close>
+      <svg class="btn-close-icon" width="28" height="28">
+        <use href="/project-JuiceDev2023/assets/icon-m-c23b3349.svg#icon-x"></use>
+      </svg>
+    </button>
+    <img
+      class="thank-pic"
+      srcset="/project-JuiceDev2023/assets/berries-w278@1x-8e011402.png 1x, /project-JuiceDev2023/assets/berries-w278@2x-327102e9.png 2x"
+      src="/project-JuiceDev2023/assets/berries-w278@1x-8e011402.png"
+      alt="Berries"
+      width="278"
+      height="239"
+    />
+    <div class="thank-descr">
+      <h2 class="thank-title">THANK YOU</h2>
+      <p class="thank-text">
+        Thank you for your order! Our team is preparing your box with fresh,
+        delicious fruits and vegetables, and we'll deliver it straight to your
+        doorstep. We appreciate your business and look forward to providing you
+        with the best possible experience!
+      </p>
+    </div>
+  </div>
+</div>
+
+<script src="../js/modal.js"></script>
+
 
     
 
