@@ -9,10 +9,10 @@
   position: absolute;
   width: 335px;
   top: 0;
-  font-family: 'DM Sans';
+
   font-weight: 500;
   font-size: 32px;
-  line-height: 1.00;
+  line-height: 1;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,7 +31,7 @@
 }
 .contacts-text {
   text-align: center;
-  font-family: 'DM Sans';
+
   font-size: 14px;
   line-height: 1.29em;
   letter-spacing: -0.04em;
@@ -47,13 +47,13 @@
   height: 48px;
   padding-left: 24px;
   padding-right: 102px;
-  font-family: 'DM Sans';
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29em;
   color: var(--white-color);
   background-color: transparent;
-  border: 1px solid  #ffffff4D;
+  border: 1px solid #ffffff4d;
   border-radius: 100px;
   outline: transparent;
 }
@@ -62,54 +62,55 @@
 }
 .fcontacts-butoon:is(:hover, :focus) {
   cursor: pointer;
-  background: #A4CB66;
+  background: #a4cb66;
 }
 .fcontacts-butoon {
   position: absolute;
   right: 100px;
   width: 102px;
-  font-family: 'DM Sans';
+
   height: 48px;
   font-size: 14px;
   line-height: 1.29em;
   border: none;
   color: var(--white-color);
-  background: #9DC162;
+  background: #9dc162;
   border-radius: 100px;
 }
 @media only screen and (min-width: 768px) {
-.contacts-container {
-  padding-top: 80px;
-  margin-bottom: 144px;
-}
-.contacts-title {
-  width: 652px;
-  font-size: 54px;}
-.contacts-fruits {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-}
-.contacts-blueberry {
-  display: block;
-}
-.contacts-form-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  .contacts-container {
+    margin-bottom: 144px;
+    padding-top: 80px;
+  }
+  .contacts-title {
+    width: 652px;
+    font-size: 54px;
+  }
+  .contacts-fruits {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .contacts-blueberry {
+    display: block;
+  }
+  .contacts-form-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* Desktop */
 @media only screen and (min-width: 1280px) {
-.contacts-container {
-  padding-top: 90px;
-  margin-bottom: 150px;
-}
-.contacts-title {
-  font-size: 64px;
-  width: 740px;
-}
-.contacts-fruits {
-  gap: 24px;
-}
+  .contacts-container {
+    margin-bottom: 144px;
+    padding-top: 90px;
+  }
+  .contacts-title {
+    font-size: 64px;
+    width: 740px;
+  }
+  .contacts-fruits {
+    gap: 24px;
+  }
 }
