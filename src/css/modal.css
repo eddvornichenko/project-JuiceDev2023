@@ -445,7 +445,7 @@
   transition: opacity var(--transition-duration-and-func),
     visibility var(--transition-duration-and-func);
 }
-.modal-thank {
+.modal-thank-top {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -462,11 +462,11 @@
   border-radius: 20px;
   background-color: #e03f5e;
 }
-.fond.is-hidden .modal-thank {
+.fond.is-hidden .modal-thank-top {
   transform: translate(-50%, -50%) rotate(360deg) scale(0.2);
 }
 @media screen and (min-width: 768px) {
-  .modal-thank {
+  .modal-thank-top {
     width: 600px;
     height: 545px;
   }
