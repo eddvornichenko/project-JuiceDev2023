@@ -1,0 +1,136 @@
+.how-it-works-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.title-order {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -3.5px;
+  color: var(--white-color);
+  max-width: 624px;
+  margin: 0 auto;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+.text-order {
+  font-style: regular;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+
+  max-width: 509px;
+  padding-bottom: 44px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .text-order {
+    max-width: 335px;
+  }
+}
+
+.order-steps-list {
+  display: flex;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  gap: 24px;
+}
+
+@media only screen and (max-width: 1279px) {
+  .order-steps-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+.order-steps-item {
+  max-width: 389px;
+  min-height: 128px;
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.number-step {
+  border-radius: 200px;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.text-step {
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  display: flex;
+  display: inline-block;
+  align-items: center;
+}
+
+.color-one {
+  background-color: #ae1332;
+  padding: 12px 31.5px 12px 31.5px;
+}
+
+.color-two {
+  background-color: #a4cb66;
+  padding: 12px 18px 12px 18px;
+}
+
+.color-three {
+  background-color: #f5ce13;
+  padding: 12px 28px 12px 28px;
+}
+
+.text-item-first {
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.4px;
+  color: #000000;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  padding-right: 53px;
+  margin-left: 14px;
+}
+
+.text-item {
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.4px;
+  color: #000000;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  padding-right: 53px;
+  margin-left: 14px;
+}
+
+.text-item-last {
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.4px;
+  color: #000000;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  padding-right: 20px;
+  margin-left: 14px;
+}
+
+.img-gif {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .img-gif {
+    max-width: 704px;
+  }
+}
