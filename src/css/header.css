@@ -1,21 +1,119 @@
-.header {
-  padding: 20px 0;
+.list {
+  list-style: none;
 }
-
-.nav-list {
+.header-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: space-between;
+  background-color: var(--white-color);
+}
+.header {
+  position: relative;
+  border: 0;
+  margin-bottom: 0;
+  background-color: var(--white-color);
+}
+.logo-header {
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+}
+.logo-text-header {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: var(--red-color);
+}
+.icon-mobile-menu {
+  background-color: var(--white-color);
+  border: 0;
+  padding: 0;
+  line-height: 0;
+}
+.icon-uil_cart {
+  background-color: var(--white-color);
+  border: 0;
+  padding: 0;
+  line-height: 0;
+}
+@media screen and (max-width: 768px) {
+  .icon-uil_cart {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+}
+.menu {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 1.3;
+  list-style: none;
+}
+.menu-item {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--red-color);
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.mobile-menu {
+  margin-top: 124px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-link {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  padding: 0;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icon-close {
+  fill: var(--red-color);
+  background-size: cover;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--red-color);
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
 }

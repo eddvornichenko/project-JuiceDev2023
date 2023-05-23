@@ -2,9 +2,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 44px;
-  
+
   max-width: 547px;
-  
 }
 
 .fruits-title {
@@ -42,9 +41,26 @@
   gap: var(--indent);
   margin-bottom: 44px;
 }
+@media only screen and (min-width: 768px) {
+  .fruits-list {
+    --items: 2;
+    --indent: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .fruits-list {
+    --items: 3;
+    --indent: 24px;
+  }
+}
 
 .fruits-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
   max-width: 335px;
+  max-height: 465px;
   flex-basis: calc((100% - ((var(--items) -1) * var(--indent))) / var(--items));
 
   padding-top: 64px;
@@ -55,6 +71,22 @@
   background-color: #f8766b;
   border-radius: 20px;
 }
+@media only screen and (min-width: 375px) {
+  .fruits-item {
+    min-width: 335px;
+    height: 465px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .fruits-item {
+    min-width: 344px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .fruits-item {
+    min-width: 389px;
+  }
+}
 
 .fruits-item-title {
   margin-bottom: 8px;
@@ -62,31 +94,47 @@
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 1.19;
-  /* identical to box height, or 119% */
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: -0.04em;
 
   color: #ffffff;
 }
-
+@media only screen and (min-width: 768px) {
+  .fruits-item-title {
+    font-size: 32px;
+    line-height: 1.19;
+  }
+}
 .fruits-item-text {
   margin-bottom: 4px;
 
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.33;
-  /* identical to box height, or 133% */
+  font-size: 14px;
+  line-height: 1.29;
   letter-spacing: -0.02em;
 }
+@media only screen and (min-width: 768px) {
+  .fruits-item-text {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
 
+/* Wrapper for image + shadow */
 .fruit-image-wrapper {
   position: relative;
+  margin-bottom: 22px;
 }
+@media only screen and (min-width: 768px) {
+  .fruit-image-wrapper {
+    margin-bottom: 6px;
+  }
+}
+
 .fruits-item-image {
-  margin-bottom: 26px;
 }
 
 /* Shadow of the fruit image */
@@ -97,7 +145,7 @@
   transform: translate(-50%, -50%);
 
   width: 195px;
-  height: 38px; 
+  height: 38px;
 
   background-color: #000000;
   border-radius: 50%;
@@ -108,6 +156,7 @@
 .fruits-item-price {
   display: block;
   width: 126px;
+  height: 42px;
   padding: 12px 24px;
   background: #ffffff;
   border-radius: 200px;
@@ -117,37 +166,46 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  /* identical to box height, or 129% */
   letter-spacing: -0.04em;
 
   color: #ae1332;
 }
+@media only screen and (min-width: 768px) {
+  .fruits-item-price {
+    width: 142px;
+    height: 48px;
+    padding: 12px 21px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
 .fruits-item:nth-child(1) {
-  background: #F8766B;
+  background: #f8766b;
 }
 .fruits-item:nth-child(2) {
-  background: #EDD251;
+  background: #edd251;
 }
 .fruits-item:nth-child(3) {
   background: #9dc262;
 }
 .fruits-item:nth-child(4) {
-  background: #BFD663;
+  background: #bfd663;
 }
 .fruits-item:nth-child(5) {
-  background: #E93F29;
+  background: #e93f29;
 }
 .fruits-item:nth-child(6) {
-  background: #DB4F4B;
+  background: #db4f4b;
 }
 .fruits-item:nth-child(7) {
-  background: #9B5366;
+  background: #9b5366;
 }
 .fruits-item:nth-child(8) {
-  background: #F47F4C;
+  background: #f47f4c;
 }
 .fruits-item:nth-child(9) {
-  background: #98B37E;
+  background: #98b37e;
 }
 /* btn-style */
 /* btn-style */
@@ -210,19 +268,19 @@
 /* phone */
 @media only screen and (min-width: 375px) and (max-width: 767px) {
   .fruits-item:nth-child(7) {
-      display: none;
+    display: none;
   }
   .fruits-item:nth-child(8) {
     display: none;
-}
-.fruits-item:nth-child(9) {
-  display: none;
-}
+  }
+  .fruits-item:nth-child(9) {
+    display: none;
+  }
 }
 /* tablet */
 @media only screen and (min-width: 768px) and (max-width: 1179px) {
   .fruits-item:nth-child(9) {
-      display: none;
-}
+    display: none;
+  }
 }
 /* MEDIA-END  */

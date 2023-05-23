@@ -1,0 +1,159 @@
+<!--Work button ( delite)  -->
+<!-- <button data-modal-open>Orler-modal</button>
+<button thank-modal-open>THANK</button> -->
+<!--Work button ( delite)  -->
+
+<!-- Modal window ORDER -->
+<div class="backdrop is-hidden" id="myModal">
+  <div class="modal-order">
+    <div class="modal-top">
+      <h2 class="modal-order-title">Your Order</h2>
+      <button class="modal-btn-close close" >
+        <svg class="btn-close-icon" width="28" height="28">
+          <use href="./img/modal-img/icon-m.svg#icon-x"></use>
+        </svg>
+      </button>
+    </div>
+    <form class="modal-card">
+      <div class="modal-plant pinck">
+        <div class="plant">
+          <h3 class="plant-title">Strawberry Basket</h3>
+          <p class="plant-text">Plant</p>
+        </div>
+        <label class="box">
+          <input class="input-check visually-hidden" type="checkbox" />
+          <span class="check-off"></span>
+        </label>
+        <img
+          class="thumb-pinck"
+          srcset="
+            ./img/modal-img/strawberry-basket-w173@1x.png 1x,
+            ./img/modal-img/strawberry-basket-w173@2x.png 2x
+          "
+          src="./img/modal-img/strawberry-basket-w173@1x.png"
+          alt="strawberry-basket"
+          width="173"
+          height="196"
+        />
+      </div>
+      <div class="modal-plant yellow">
+        <div class="plant">
+          <h3 class="plant-title">Apple Basket</h3>
+          <p class="plant-text">Plant</p>
+        </div>
+        <label class="box">
+          <input class="input-check visually-hidden" type="checkbox" />
+          <span class="check-off"></span>
+        </label>
+        <img
+          class="thumb-yellow"
+          srcset="
+            ./img/modal-img/apple-basket-w229@1x.png 1x,
+            ./img/modal-img/apple-basket-w229@2x.png 2x
+          "
+          src="./img/modal-img/apple-basket-w229@1x.png"
+          alt="apple-basket"
+          width="229"
+          height="196"
+        />
+      </div>
+      <div class="modal-plant green">
+        <div class="plant">
+          <h3 class="plant-title">Fruits Basket</h3>
+          <p class="plant-text">Plant</p>
+        </div>
+        <label class="box">
+          <input class="input-check visually-hidden" type="checkbox" />
+          <span class="check-off"></span>
+        </label>
+        <img
+          class="thumb-green"
+          srcset="
+            ./img/modal-img/fruit-basket-w229@1x.png 1x,
+            ./img/modal-img/fruit-basket-w229@2x.png 2x
+          "
+          src="./img/modal-img/fruit-basket-w229@1x.png"
+          alt="fruit-basket"
+          width="229"
+          height="196"
+        />
+      </div>
+    </form>
+    <form class="modal-use">
+      <label class="visually-hidden" for="full-name">Enter full name </label>
+      <input
+        id="full-name"
+        class="input-user"
+        type="text"
+        name="full-name"
+        pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+        title="Username must be two words separated by space, e.g. John Smith"
+        autofocus
+        placeholder="Enter full name..."
+        required
+      />
+      <label class="visually-hidden" for="email">Enter email </label>
+      <input
+        id="email"
+        class="input-user"
+        type="email"
+        name="user-email"
+        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        title="Please enter a valid user-email, e.g. dog.hot70@gmail.com"
+        placeholder="Enter email..."
+        required
+      />
+      <label class="visually-hidden" for="tel">Enter number phone</label>
+      <input
+        id="tel"
+        class="input-user"
+        type="tel"
+        name="tel"
+        pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+        title="Please enter +38 (000) 000-00-00 and your phone number"
+        placeholder="Enter number phone.."
+        required
+      />
+      <label class="visually-hidden" for="massage">Enter comments</label>
+      <textarea
+        id="massage"
+        class="input-msg"
+        cols="30"
+        rows="10"
+        placeholder="Enter comments..."
+      ></textarea>
+    </form>
+    <button class="modal-btn-sub" type="submit">Submit</button>
+  </div>
+</div>
+<!-- Modal window THENK YOU -->
+<div class="fond is-hidden" thank-modal>
+  <div class="modal-thank-top">
+    <button class="thank-btn-close" type="button" thank-modal-close>
+      <svg class="btn-close-icon" width="28" height="28">
+        <use href="./img/modal-img/icon-m.svg#icon-x"></use>
+      </svg>
+    </button>
+    <img
+      class="thank-pic"
+      srcset="
+        ./img/modal-img/berries-w278@1x.png 1x,
+        ./img/modal-img/berries-w278@2x.png 2x
+      "
+      src="./img/modal-img/berries-w278@1x.png"
+      alt="Berries"
+      width="278"
+      height="239"
+    />
+    <div class="thank-descr">
+      <h2 class="thank-title">THANK YOU</h2>
+      <p class="thank-text">
+        Thank you for your order! Our team is preparing your box with fresh,
+        delicious fruits and vegetables, and we'll deliver it straight to your
+        doorstep. We appreciate your business and look forward to providing you
+        with the best possible experience!
+      </p>
+    </div>
+  </div>
+</div>
+<script src="./js/modal.js"></script>

@@ -4,11 +4,12 @@
 }
 
 .title-order {
+  font-family: sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: -3.5px;
-  color: var(--white-color);
+  color: #ffffff;
   max-width: 624px;
   margin-left: 295.5px;
   margin-right: 295.5px;
@@ -32,11 +33,13 @@
   color: #ffffff;
 
   max-width: 509px;
+  margin-left: 385px;
+  margin-right: 385px;
   padding-bottom: 44px;
   text-align: center;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (main-width: 375px) and (max-width: 767px) {
   .text-order {
     max-width: 335px;
     margin-left: 20px;
