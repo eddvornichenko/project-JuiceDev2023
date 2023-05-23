@@ -9,6 +9,7 @@
         </div>
         <div class="hero-img-container">
           <div class="hero-girl">
+            <picture>
             <source
           media="(min-width: 768px)"
           srcset="
@@ -20,18 +21,18 @@
         <source
           media="(max-width: 767px)"
           srcset="
-          ./img/Hero-img/Tablet/girl-with-orange-for-mobile.webp 1x,
-          ./img/Hero-img/Tablet/girl-with-orange-for-mobile@2x.webp 2x
+          ./img/Hero-img/Mobile/girl-with-orange-for-mobile.webp 1x,
+          ./img/Hero-img/Mobile/girl-with-orange-for-mobile@2x.webp 2x
           "
           type="image/webp"
         />
-        <img
-          class="hero-girl-img"
+        <img  class="hero-girl-img"
           src="/img/Hero-img/Tablet/girl-with-orange-for-tablet.webp"
           alt="smiling girl holding an orange"
           width="452"
           height="702"
         />
+        </picture>
             <button class="hero-button" type="button" data-modal-open>
               Shop<br />now
             </button>
@@ -50,7 +51,7 @@
           </p>
           <div class="fruits-hero-container">
             <p class="fruits-img-title">Fruit</p>
-            <div class="photo-shadow">
+            <div class="photo-wrapper-watermelon">
             <img
           class="fruits-hero-img"
           srcset="
@@ -85,19 +86,21 @@
             </li>
           </ul>
           <div class="fruits-second-hero-container">
-            <p class="fruits-img-title">Fruit</p>         
+            <p class="fruits-img-title">Fruit</p> 
+            <div class="photo-wrapper-strawberry">       
             <img
             class="fruits-hero-img"
             srcset="
-              ./img/Hero-img/Mobile/strawberry-basket-mobile.png 1x,
-              ./img/Hero-img/Mobile/strawberry-basket-mobile@2x.png 2x
+              ./img/Hero-img/Mobile/strawberry-basket-mobile.webp 1x,
+              ./img/Hero-img/Mobile/strawberry-basket-mobile@2x.webp 2x
             "
-            src="./img/Hero-img/Mobile/strawberry-basket-mobile.png"
-            type="image/png"
+            src="./img/Hero-img/Mobile/strawberry-basket-mobile.webp"
+            type="image/webp"
             alt="strawberry"
             width="162"
             height="185"
             />
+            </div>
             <p class="fruits-description">
               Sweet and juicy, strawberries are packed with vitamin C and antioxidants, making them a delicious and healthy snack
             </p>

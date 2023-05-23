@@ -19,9 +19,16 @@
     }
 }
 .hero-title-container {
-    padding-top: 64px;
     position: absolute;
     z-index: 2;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+@media only screen and (min-width: 768px) {
+    .hero-title-container {
+    padding-top: 64px;
+  }
 }
 .hero-title {
     font-weight: 500;
@@ -43,20 +50,24 @@
 
 }
 @media only screen and (min-width: 768px){
-.hero-title {
-    font-size: 50px;
-    line-height: 1.08;
-    width: 704px;
-    height: 168px;
+    .hero-title {
+        font-size: 50px;
+        line-height: 1.08;
+        width: 704px;
+        height: 168px;
     }
 }
 @media only screen and (min-width: 1280px){
     .hero-title {
-    width: 898px;
-    height: 198px;
-    margin-left: 190px;
-        }
+        font-size: 64px;
+        line-height: 1;
+        width: 898px;
+        height: 198px;
+        
+        margin: 0 auto;
+        text-align: center;
     }
+}
 .hero-img-container {
     position: relative;
     top: 50px;
@@ -71,7 +82,8 @@
 
 .hero-girl {
   position: relative;
-  margin-bottom: 44px
+  margin-bottom: 44px;
+  margin-top: 58px;
 }
 
 .hero-girl-img {
@@ -119,7 +131,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    top: 70px;
+    top: 9px;
     left: -16px;
     filter: blur(2px);
     transform: rotate(20deg);
@@ -147,7 +159,7 @@
     background-size: contain;
     position: absolute;
     right: 0;
-    top: 12px;
+    top: -56px;
     filter: blur(2px);
 }
 @media only screen and (min-width: 768px){
@@ -170,7 +182,7 @@
 .hero-button{
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom:-20px;
     min-width: 80px;
     height: 80px;
     color: var(--red-color);
@@ -197,7 +209,7 @@
     width: 114px;
     height: 114px;
     font-size: 28px;
-      
+    bottom: 0;
     }
 }
 .hero-button:hover,
@@ -278,8 +290,37 @@
 
     letter-spacing: -0.04em;
 }
+.strawberry-container .fruits-img-title{
+    padding-bottom: 19px;
+}
 .fruits-hero-img { 
     margin: 0 auto;
+}
+.photo-wrapper-watermelon::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 5px;
+    top: 228px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    filter: blur(13.5914px);
+}
+.photo-wrapper-strawberry::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 10px;
+    top: 210px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    filter: blur(13.5914px);
 }
 
 
@@ -292,6 +333,9 @@
     text-transform: uppercase;
     color: var(--primary-color);
     margin: 0 auto 40px;
+}
+.strawberry-container .fruits-description{
+    padding-top: 17px;
 }
 .tag-list {
     display: flex;
