@@ -28,7 +28,7 @@
     />
     
     <script type="module" crossorigin src="/project-JuiceDev2023/assets/index-7ae64c72.js"></script>
-    <link rel="stylesheet" href="/project-JuiceDev2023/assets/index-6b92ed48.css">
+    <link rel="stylesheet" href="/project-JuiceDev2023/assets/index-d0163041.css">
   </head>
   <body>
     <header class="header">
@@ -407,17 +407,61 @@
 
     <!----contacts---->
 <section class="contacts">
-  <div class="container">
+  <div class="container contacts-container">
     <div class="contacts-title-container">
       <h2 class="contacts-title">FRESH HARVEST BOX HAS GOT YOU COVERED</h2>
-      <div class="contacts-img">
-        <img
-          srcset="./img/jpg/contacts/melon-w335@2x.png 2x"
-          src="./img/jpg/contacts/melon-w335@1x.png"
-          alt="computer"
-          width="360"
-        />
-      </div>
+      <ul class="contacts-fruits">
+        <li>
+          <picture>
+            <source
+              srcset="../img/contacts/melon-w344@1x.png 1x"
+              media="(max-width: 1280px)"
+              width="344"
+            />
+            <source
+              srcset="../img/contacts/melon-w344@2x.png 2x"
+              media="(max-width: 1280px)"
+              width="344"
+            />
+            <source
+              srcset="../img/contacts/melon-w792@1x.png 1x"
+              media="(min-width: 1281px)"
+              width="792"
+            />
+            <source
+              srcset="../img/contacts/melon-w792@2x.png 2x"
+              media="(min-width: 1281px)"
+              width="792"
+            />
+            <img
+              srcset="../img/contacts/melon-w335@2x.png 2x"
+              src="../img/contacts/melon-w335@1x.png"
+              alt="melon"
+              width="335"
+            />
+          </picture>
+        </li>
+        <li class="contacts-blueberry">
+          <picture>
+            <source
+              srcset="../img/contacts/blueberry-w400@1x.png 1x"
+              media="(min-width: 1280px)"
+              width="400"
+            />
+            <source
+              srcset="../img/contacts/blueberry-w400@2x.png 2x"
+              media="(min-width: 1280px)"
+              width="400"
+            />
+            <img
+              srcset="../img/contacts/blueberry-w344@2x.png 2x"
+              src="../img/contacts/blueberry-w344@1x.png"
+              alt="blueberry"
+              width="344"
+            />
+          </picture>
+        </li>
+      </ul>
     </div>
     <div class="contacts-form-container">
       <p class="contacts-text">
@@ -431,6 +475,7 @@
           class="contacts-modal-input"
           type="email"
           placeholder="Enter email..."
+          required
         />
         <button class="fcontacts-butoon" type="submit">Subscribe</button>
       </form>
