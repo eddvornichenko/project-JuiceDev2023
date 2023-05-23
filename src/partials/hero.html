@@ -1,71 +1,117 @@
-<!-- Hero -->
 <section class="hero">
-    <div class="container">
-      <div class="hero-top-container">
-        <div class="hero-title-container">
-          <h1 class="hero-title">
-            fresh harvest box <br>is your one-stop place for a delicious fruit
-            basket
-          </h1>
+  <div class="container">
+    <div class="hero-top-container">
+      <div class="hero-title-container">
+        <h1 class="hero-title">
+          fresh harvest box <br />is your one-stop place for a delicious fruit
+          basket
+        </h1>
+      </div>
+      <div class="hero-img-container">
+        <div class="hero-girl">
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/img-1/Tablet/girl-with-orange-for-tablet.webp    1x,
+              ./img/img-1/Tablet/girl-with-orange-for-tablet@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/img-1/Tablet/girl-with-orange-for-mobile.webp    1x,
+              ./img/img-1/Tablet/girl-with-orange-for-mobile@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <img
+            class="hero-girl-img"
+            src="./img/img-1/Tablet/girl-with-orange-for-tablet.webp"
+            alt="smiling girl holding an orange"
+            width="452"
+            height="702"
+          />
+          <button class="hero-button" type="button" data-modal-open>
+            Shop<br />now
+          </button>
         </div>
-        <div class="hero-img-container">
         <img
-          class="hero-main-img" src=" " alt=" "/>
+          class="hero-main-img-banana"
+          src="./img/img-1/Desctop/banana-for-desctop.webp"
+          alt=""
+        />
+        <img
+          class="hero-main-img-straw"
+          src="./img/img-1/Desctop/strawb-for-desctop.webp"
+          alt=""
+        />
       </div>
-        <button class="hero-button" type="button" data-modal-open>
-          Shop<br />now
-        </button>
-      </div>
-    <div class="watermelon-container">
+    </div>
+    <div class="pills">
+      <div class="watermelon-container">
         <p class="watermelon-top-desc">
-          Our expertly curated fruit baskets are made with the freshest,
-          highest quality fruits available. Whether you are looking for a
-          healthy snack or a gift for a loved one, Fresh Harvest Box has got
-          you covered.
+          Our expertly curated fruit baskets are made with the freshest, highest
+          quality fruits available. Whether you are looking for a healthy snack
+          or a gift for a loved one, Fresh Harvest Box has got you covered.
         </p>
         <div class="fruits-container">
           <p class="fruits-img-title">Fruit</p>
-          <img
-            class="fruits-hero-img"
-            src="./img/hero/watermel.png"
-            alt="Watermelon"
-            width="200"
-            height="172"
-          />
+          <div class="photo-shadow">
+            <img
+              class="fruits-hero-img"
+              srcset="
+                ./img/img-1/Mobile/watermelon-for-mobile.png,
+                ./img/img-1/Mobile/watermelon-for-mobile@2x.png 498w
+              "
+              sizes="239px"
+              src="./img/img-1/Mobile/watermelon-for-mobile.png"
+              alt="ripe watermelons"
+              width="239"
+              height="172"
+            />
+          </div>
           <p class="fruits-description">
-            Design practice focused on digital experiences. We bring forth a
-            deep passion for problem-solving.
+            Refreshing and juicy, watermelon is the perfect summer treat and a
+            great source of hydration
           </p>
         </div>
-      
-      <ul class="tag-list">
-          <li class="organic">
-              <a class="org" href="">#ORGANIC</a>
+      </div>
+      <div class="strawberry-container">
+        <ul class="tag-list">
+          <li class="organic fruits-tag">
+            <h3 class="org" href="#">#ORGANIC</h3>
           </li>
-          <li class="prod">
-              <a class="org" href="">#PRODUCTS</a>
+          <li class="prod fruits-tag">
+            <h3 class="org" href="#">#PRODUCTS</h3>
           </li>
-          <li class="basket">
-              <a class="org" href="">#BASKET</a>
+          <li class="basket fruits-tag">
+            <h3 class="org" href="#">#BASKET</h3>
           </li>
-          <li class="frui">
-              <a class="org" href="">#FRUITS</a>
+          <li class="frui fruits-tag">
+            <h3 class="org" href="#">#FRUITS</h3>
           </li>
-      </ul>
-      <div class="fruits-second-container">
-        <p class="fruits-img-title">Fruit</p>
-        <img
-          class="fruits-hero-img"
-          src="./img/hero/straw.png"
-          alt="strawberry"
-          width="162"
-          height="185"
-        />
-        <p class="fruits-description">
-          Design practice focused on digital experiences. We bring forth a
-          deep passion for problem-solving.
-        </p>
+        </ul>
+        <div class="fruits-second-container">
+          <p class="fruits-img-title">Fruit</p>
+          <img
+            class="fruits-hero-img"
+            srcset="
+              ./img/img-1/Mobile/strawberry-basket-mobile.png    1x,
+              ./img/img-1/Mobile/strawberry-basket-mobile@2x.png 2x
+            "
+            src="./img/img-1/Mobile/strawberry-basket-mobile.png"
+            type="image/png"
+            alt="strawberry"
+            width="162"
+            height="185"
+          />
+          <p class="fruits-description">
+            Sweet and juicy, strawberries are packed with vitamin C and
+            antioxidants, making them a delicious and healthy snack
+          </p>
+        </div>
       </div>
     </div>
-    </div>
-  </section>
+  </div>
+</section>
