@@ -1,7 +1,4 @@
 /* MODAL ORLER */
-:root {
-  --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -22,15 +19,15 @@
   height: 100%;
   background-color: rgba(168, 2, 32, 0.707);
   z-index: 20;
-  transition: opacity var(--transition-duration-and-func),
-    visibility var(--transition-duration-and-func);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity var(--transition-duration-and-func),
-    visibility var(--transition-duration-and-func);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-order {
   position: absolute;
@@ -51,15 +48,15 @@
 .overlay.active {
   opacity: 1;
   visibility: visible;
-  transition: opacity var(--transition-duration-and-func),
-    visibility var(--transition-duration-and-func);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 768px) {
   .modal-order {
     width: 704px;
     height: 853px;
     padding: 40px;
-    background-image: url(./img/modal-img/logo-w471@1x.png);
+    background-image: url(../img/modal-img/logo-w471@1x.png);
     background-position: 414px 389px;
     background-repeat: no-repeat;
     background-size: 469px 467px;
@@ -69,7 +66,7 @@
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .modal-order {
-      background-image: url(./img/modal-img/logo-w471@2x.png);
+      background-image: url(../img/modal-img/logo-w471@2x.png);
     }
   }
 }
@@ -77,7 +74,7 @@
   .modal-order {
     width: 891px;
     height: 911px;
-    background-image: url(./img/modal-img/logo-w471@1x.png);
+    background-image: url(../img/modal-img/logo-w471@1x.png);
     background-position: 420px 453px;
     background-repeat: no-repeat;
     background-size: 471px 458px;
@@ -87,7 +84,7 @@
     screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     .modal-order {
-      background-image: url(./img/modal-img/logo-w471@2x.png);
+      background-image: url(../img/modal-img/logo-w471@2x.png);
     }
   }
 }
@@ -124,7 +121,7 @@
   background-color: var(--white-color);
   color: var(--red-color);
   transform: scale(1);
-  transition: transform var(--transition-duration-and-func);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   padding: 0;
 }
@@ -133,6 +130,8 @@
 }
 .modal-btn-close:hover,
 .modal-btn-close:focus {
+  outline-color: var(--white-color);
+  border: transparent;
   transform: scale(1.2);
 }
 @media screen and (min-width: 768px) {
@@ -170,7 +169,7 @@
   border-radius: 20px;
   color: var(--white-color);
   transform: scale(1);
-  transition: transform var(--transition-duration-and-func);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 20px;
   padding-left: 20px;
 }
@@ -234,6 +233,11 @@
   border-radius: 4px;
   border: 2px solid var(--white-color);
   cursor: pointer;
+}
+.check-off:hover,
+.check-off:focus {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 @media screen and (min-width: 768px) {
   .check-off {
@@ -373,6 +377,10 @@
   color: #000000;
   opacity: 0.8;
 }
+.input-user[pattern]:hover,
+.input-user[pattern]:focus {
+  cursor: pointer;
+}
 .input-msg {
   width: 295px;
   height: 132px;
@@ -410,12 +418,13 @@
   background-color: #9dc162;
   cursor: pointer;
   transform: scale(1);
-  transition: transform var(--transition-duration-and-func);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 12px 24px;
   border: none;
 }
 .modal-btn-sub:hover,
 .modal-btn-sub:focus {
+  outline: #659910;
   transform: scale(1.05);
   background-color: #659910;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -442,8 +451,8 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity var(--transition-duration-and-func),
-    visibility var(--transition-duration-and-func);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-thank-top {
   position: absolute;
@@ -457,8 +466,7 @@
   height: 426px;
   gap: 20px;
   transform: translate(-50%, -50%);
-  transition: transform 1000ms cubic-bezier(1, 0.99, 1, 0.97);
-  transition: transform var(--transition-duration-and-func);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 20px;
   background-color: #e03f5e;
 }
@@ -480,7 +488,7 @@
   background-color: #e03f5e;
   color: var(--white-color);
   transform: scale(1);
-  transition: transform var(--transition-duration-and-func);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   padding: 0;
 }
@@ -489,6 +497,8 @@
 }
 .thank-btn-close:hover,
 .thank-btn-close:focus {
+  outline: #e03f5e;
+  border: transparent;
   transform: scale(1.2);
 }
 @media screen and (min-width: 768px) {
@@ -519,8 +529,14 @@
   justify-content: center;
   align-items: center;
   width: 295px;
+  transform: scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   gap: 14px;
   margin-bottom: 40px;
+}
+.thank-btn-close:hover ~ .thank-descr,
+.thank-btn-close:focus ~ .thank-descr {
+  transform: scale(1.2);
 }
 @media screen and (min-width: 768px) {
   .thank-descr {
