@@ -1,0 +1,35 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-chek-1" viewBox="0 0 32 32">
+            <path fill="#fff" style="fill: var(--color1, #fff)"
+                d="M19.807 10.527c0.372-0.549 1.118-0.692 1.667-0.32s0.692 1.118 0.32 1.667l-6.508 9.6c-0.476 0.702-1.51 0.702-1.986 0l-3.091-4.56c-0.372-0.549-0.229-1.295 0.32-1.667s1.295-0.229 1.667 0.32l2.098 3.095 5.515-8.135z">
+            </path>
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter"
+                stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3"
+                d="M8 1.5h16c3.59 0 6.5 2.91 6.5 6.5v16c0 3.59-2.91 6.5-6.5 6.5h-16c-3.59 0-6.5-2.91-6.5-6.5v-16c0-3.59 2.91-6.5 6.5-6.5z">
+            </path>
+        </symbol>
+        <symbol id="icon-chek-2" viewBox="0 0 32 32">
+            <path fill="#fff" style="fill: var(--color1, #fff)"
+                d="M20.061 10.162c0.397-0.585 1.192-0.738 1.778-0.341s0.738 1.193 0.341 1.778l-6.942 10.24c-0.508 0.749-1.611 0.749-2.119 0l-3.298-4.864c-0.397-0.585-0.244-1.381 0.341-1.778s1.381-0.244 1.778 0.341l2.238 3.301 5.883-8.677z">
+            </path>
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter"
+                stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.4"
+                d="M6.4 1.2h19.2c2.872 0 5.2 2.328 5.2 5.2v19.2c0 2.872-2.328 5.2-5.2 5.2h-19.2c-2.872 0-5.2-2.328-5.2-5.2v-19.2c0-2.872 2.328-5.2 5.2-5.2z">
+            </path>
+        </symbol>
+        <symbol id="icon-x" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286"
+                d="M24 8l-16 16"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286"
+                d="M8 8l16 16"></path>
+        </symbol>
+        <symbol id="icon-cloce" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                d="M24 8l-16 16"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                d="M8 8l16 16"></path>
+        </symbol>
+    </defs>
+</svg>
