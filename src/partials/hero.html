@@ -52,13 +52,12 @@
           <div class="fruits-hero-container">
             <p class="fruits-img-title">Fruit</p>
             <div class="photo-wrapper-watermelon">
-            <img
+              <img
           class="fruits-hero-img"
           srcset="
-            ./img/Hero-img/Mobile/watermelon-for-mobile.png,
-            ./img/Hero-img/Mobile/watermelon-for-mobile@2x.png 498w
+            ./img/Hero-img/Mobile/watermelon-for-mobile.png 1x,
+            ./img/Hero-img/Mobile/watermelon-for-mobile@2x.png 2x
           "
-          sizes="239px"
           src="./img/Hero-img/Mobile/watermelon-for-mobile.png"
           alt="ripe watermelons"
           width="239"
@@ -88,18 +87,20 @@
           <div class="fruits-second-hero-container">
             <p class="fruits-img-title">Fruit</p> 
             <div class="photo-wrapper-strawberry">       
-            <img
-            class="fruits-hero-img"
-            srcset="
+            <picture>
+              <source srcset="
               ./img/Hero-img/Mobile/strawberry-basket-mobile.webp 1x,
               ./img/Hero-img/Mobile/strawberry-basket-mobile@2x.webp 2x
-            "
-            src="./img/Hero-img/Mobile/strawberry-basket-mobile.webp"
-            type="image/webp"
+            " type="image/webp">
+
+              <img
+              class="fruits-hero-img"
+            src="./img/Hero-img/Mobile/strawberry-basket-mobile.png"
             alt="strawberry"
             width="162"
             height="185"
             />
+            </picture>
             </div>
             <p class="fruits-description">
               Sweet and juicy, strawberries are packed with vitamin C and antioxidants, making them a delicious and healthy snack
