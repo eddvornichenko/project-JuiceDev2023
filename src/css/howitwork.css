@@ -14,7 +14,7 @@
   margin: 0 auto;
   padding-bottom: 14px;
   text-align: center;
-  display: inline-block;
+  display: block;
 }
 
 @media only screen and (max-width: 1279px) {
