@@ -33,18 +33,22 @@
 .logo-footer {
   display: block;
   text-align: center;
+  }
+
+.logo-column {
   margin-bottom: 24px;
 }
 @media only screen and (min-width: 768px) {
-  .logo-footer {
-    margin-bottom: 80px;
-  }
+  .logo-column {
+  margin-bottom: 80px;
 }
-@media only screen and (min-width: 1280px) {
-  .logo-footer {
-    margin-bottom: 0px;
-  }
 }
+@media only screen and (min-width: 768px) {
+  .logo-column {
+  margin-bottom: 0px;
+}
+}
+
 .footer-menu {
   display: flex;
   gap: 20px;
