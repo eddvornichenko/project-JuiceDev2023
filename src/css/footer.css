@@ -14,6 +14,11 @@
     justify-content: space-between;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .footer-container {
+    align-items: flex-start;
+  }
+}
 
 .footer-menu {
   color: var(--red-color);
