@@ -34,7 +34,7 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 1;
-    width: 335px;
+    max-width: 335px;
     height: 118px;
 
     display: flex;
@@ -53,7 +53,7 @@
     .hero-title {
         font-size: 50px;
         line-height: 1.08;
-        width: 704px;
+        max-width: 704px;
         height: 168px;
     }
 }
@@ -61,7 +61,7 @@
     .hero-title {
         font-size: 64px;
         line-height: 1;
-        width: 898px;
+        max-width: 898px;
         height: 198px;
         
         margin: 0 auto;
@@ -227,7 +227,6 @@
 }
 .watermelon-top-desc{
     width: 279px;
-    max-width: 100%;
     margin-bottom: 44px;
     font-weight: 400;
     font-size: 14px;
