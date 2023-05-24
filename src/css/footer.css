@@ -35,16 +35,16 @@
   text-align: center;
   }
 
-.1-column {
+.first-column {
   margin-bottom: 24px;
 }
 @media only screen and (min-width: 768px) {
-  .1-column {
+  .first-column {
   margin-bottom: 80px;
 }
 }
 @media only screen and (min-width: 768px) {
-  .1-column {
+ .first-column {
   margin-bottom: 0px;
 }
 }
