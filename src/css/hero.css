@@ -34,7 +34,7 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 1;
-    max-width: 335px;
+    width: 335px;
     height: 118px;
 
     display: flex;
@@ -53,7 +53,7 @@
     .hero-title {
         font-size: 50px;
         line-height: 1.08;
-        max-width: 704px;
+        width: 704px;
         height: 168px;
     }
 }
@@ -61,7 +61,7 @@
     .hero-title {
         font-size: 64px;
         line-height: 1;
-        max-width: 898px;
+        width: 898px;
         height: 198px;
         
         margin: 0 auto;
@@ -217,7 +217,7 @@
     color: var(--green-color);
 }
 .watermelon-container{
-    padding-bottom: 56px;
+    padding-bottom: 44px;
 }
 @media only screen and (min-width: 768px){
     .watermelon-container {
@@ -227,13 +227,16 @@
 }
 .watermelon-top-desc{
     width: 279px;
+    max-width: 100%;
     margin-bottom: 44px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -.04em;
     color: var(--white-color);
-    margin-left: 45px;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-bottom: 44px;
 }
 @media only screen and (min-width: 768px){
     .watermelon-top-desc {
@@ -247,7 +250,7 @@
         width: 222px;
         height: 108px;
         left: 62px;
-        top: 458px;
+        top: 414px;
       
     }
 }
@@ -261,7 +264,6 @@
     background: var(--green-color);
     border-radius: 500px;
     margin: 0 auto;
-    margin-bottom: 56px;
 }
 @media only screen and (min-width: 768px){
     .fruits-hero-container {
@@ -341,7 +343,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 44px;
+    padding-bottom: 44px;
 }
 @media only screen and (min-width: 768px){
   .pills {
