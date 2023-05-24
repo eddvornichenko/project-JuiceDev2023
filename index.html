@@ -169,10 +169,9 @@
           <div class="fruits-hero-container">
             <p class="fruits-img-title">Fruit</p>
             <div class="photo-wrapper-watermelon">
-            <img
+              <img
           class="fruits-hero-img"
-          srcset="/project-JuiceDev2023/assets/watermelon-for-mobile-27badc8c.png , /project-JuiceDev2023/assets/watermelon-for-mobile@2x-e3398a69.png 498w"
-          sizes="239px"
+          srcset="/project-JuiceDev2023/assets/watermelon-for-mobile-27badc8c.png 1x, /project-JuiceDev2023/assets/watermelon-for-mobile@2x-e3398a69.png 2x"
           src="/project-JuiceDev2023/assets/watermelon-for-mobile-27badc8c.png"
           alt="ripe watermelons"
           width="239"
@@ -202,15 +201,17 @@
           <div class="fruits-second-hero-container">
             <p class="fruits-img-title">Fruit</p> 
             <div class="photo-wrapper-strawberry">       
-            <img
-            class="fruits-hero-img"
-            srcset="/project-JuiceDev2023/assets/strawberry-basket-mobile-b761f764.webp 1x, /project-JuiceDev2023/assets/strawberry-basket-mobile@2x-74fc32f3.webp 2x"
-            src="/project-JuiceDev2023/assets/strawberry-basket-mobile-b761f764.webp"
-            type="image/webp"
+            <picture>
+              <source srcset="/project-JuiceDev2023/assets/strawberry-basket-mobile-b761f764.webp 1x, /project-JuiceDev2023/assets/strawberry-basket-mobile@2x-74fc32f3.webp 2x" type="image/webp">
+
+              <img
+              class="fruits-hero-img"
+            src="/project-JuiceDev2023/assets/strawberry-basket-mobile-a70de283.png"
             alt="strawberry"
             width="162"
             height="185"
             />
+            </picture>
             </div>
             <p class="fruits-description">
               Sweet and juicy, strawberries are packed with vitamin C and antioxidants, making them a delicious and healthy snack
