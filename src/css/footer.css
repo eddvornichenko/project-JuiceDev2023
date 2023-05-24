@@ -23,9 +23,22 @@
 .footer-menu {
   color: var(--red-color);
 }
+.footer-menu-link {
+  color: var(--red-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: var(--green-color);
+}
 .address {
   color: var(--red-color);
   font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address:hover,
+.address:focus {
+  color: var(--green-color);
 }
 @media only screen and (min-width: 768px) {
   .address {
@@ -38,20 +51,20 @@
 .logo-footer {
   display: block;
   text-align: center;
-  }
+}
 
 .one-column {
   margin-bottom: 24px;
 }
 @media only screen and (min-width: 768px) {
   .one-column {
-  margin-bottom: 80px;
-}
+    margin-bottom: 80px;
+  }
 }
 @media only screen and (min-width: 1280px) {
- .one-column {
-  margin-bottom: 0px;
-}
+  .one-column {
+    margin-bottom: 0px;
+  }
 }
 
 .footer-menu {
