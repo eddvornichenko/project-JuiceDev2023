@@ -63,6 +63,10 @@
   line-height: 1.3;
   color: var(--red-color);
 }
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--green-color);
+}
 
 .mobile-menu {
   margin-top: 124px;
