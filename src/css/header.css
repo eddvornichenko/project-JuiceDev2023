@@ -8,14 +8,14 @@
   padding-bottom: 12px;
   justify-content: space-between;
   background-color: var(--white-color);
+  height: 50px;
 }
 .header {
   position: relative;
   border: 0;
   margin-bottom: 0;
   background-color: var(--white-color);
-  height: 50px;
-}
+  }
 .logo-header {
   display: flex;
   gap: 8px;
