@@ -234,7 +234,7 @@
     line-height: 1.29;
     letter-spacing: -.04em;
     color: var(--white-color);
-    margin-left: 45px;
+    margin: 0 auto;
 }
 @media only screen and (min-width: 768px){
     .watermelon-top-desc {
