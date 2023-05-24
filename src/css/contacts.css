@@ -15,6 +15,11 @@
   line-height: 1;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
+@media only screen and (max-width: 374px) {
+  .contacts-title {
+    width: 100%;
+  }
+}
 
 .contacts-title-container {
   display: flex;
