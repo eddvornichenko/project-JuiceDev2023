@@ -79,44 +79,43 @@
         />
       </div>
     </form>
-    <form class="modal-use">
-      <label class="visually-hidden" for="full-name">Enter full name </label>
-      <input
-        id="full-name"
-        class="input-user"
-        type="text"
-        name="full-name"
-        pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
-        title="Username must be two words separated by space, e.g. John Smith"
-        autofocus
-        placeholder="Enter full name..."
-        required
-      />
-      <label class="visually-hidden" for="email">Enter email </label>
+    <label class="visually-hidden" for="first-name">Enter first name</label>
+    <input
+      id="first-name"
+      class="input-user"
+      type="text"
+      name="first-name"
+      pattern="^[a-zA-Z]+$"
+      title="Please enter a valid first name"
+      autofocus
+      placeholder="Enter first name..."
+      required
+    />
+      <label class="visually-hidden" for="email">Enter email</label>
       <input
         id="email"
         class="input-user"
         type="email"
         name="user-email"
-        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-        title="Please enter a valid user-email, e.g. dog.hot70@gmail.com"
+        pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}"
+        title="Please enter a valid email address, e.g. john@example.com"
         placeholder="Enter email..."
         required
       />
-      <label class="visually-hidden" for="tel">Enter number phone</label>
+      <label class="visually-hidden" for="phone">Enter phone number</label>
       <input
-        id="tel"
+        id="phone"
         class="input-user"
         type="tel"
-        name="tel"
-        pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$"
-        title="Please enter +38 (000) 000-00-00 and your phone number"
-        placeholder="Enter number phone.."
+        name="phone"
+        pattern="^\d{10}$"
+        title="Please enter a valid 10-digit phone number"
+        placeholder="Enter phone number (e.g. 0991234567)..."
         required
       />
-      <label class="visually-hidden" for="massage">Enter comments</label>
+      <label class="visually-hidden" for="message">Enter comments</label>
       <textarea
-        id="massage"
+        id="message"
         class="input-msg"
         cols="30"
         rows="10"
