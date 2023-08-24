@@ -12,6 +12,8 @@
   overflow: hidden;
 }
 .backdrop {
+  display: none;
+  overflow: auto;
   position: fixed;
   top: 0;
   left: 0;

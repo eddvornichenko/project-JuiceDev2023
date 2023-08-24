@@ -1,46 +1,17 @@
-// Модальное окно ORDER
-// Получаем ссылки на элементы страницы
-var modal = document.getElementById('myModal');
-var btn = document.getElementById('myBtn');
-var span = document.getElementsByClassName('close')[0];
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
-// Функция отображения модального окна
-function showModal() {
-  modal.style.display = 'block';
-}
+const openModalBtns = document.getElementsByClassName("fruits-order-btn");
+const closeModalBtn = document.getElementsByClassName("modal-btn-close")[0];
+const modal = document.getElementById("myModal");
 
-// Функция скрытия модального окна
-function closeModal() {
-  modal.style.display = 'none';
-}
+Array.from(openModalBtns).forEach(btn => {
+    btn.addEventListener("click", () => {
+        modal.style.display = "block";
+        disableBodyScroll(modal);
+    });
+});
 
-// Закрываем модальное окно при щелчке на "крестик"
-span.onclick = function() {
-  closeModal();
-}
-
-// Закрываем модальное окно при щелчке вне его области
-window.onclick = function(event) {
-  if (event.target == modal) {
-    closeModal();
-  }
-}
-
-// При клике на кнопку "Открыть модальное окно" отображаем модальное окно
-btn.onclick = function() {
-  showModal();
-}
-
-
-
-// Получаем ссылку на элемент и кнопку
-var element = document.getElementById('myModal');
-var button = document.getElementById('myBtn');
-
-// Функция для удаления класса
-function removeClass() {
-  element.classList.remove('is-hidden');
-}
-
-// Добавляем обработчик события при клике на кнопку
-button.addEventListener('click', removeClass);
+closeModalBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+    enableBodyScroll(modal);
+});
